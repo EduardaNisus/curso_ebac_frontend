@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: rgba(137, 43, 226, 0.627);
+    max-width: 400px; 
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(66, 181, 148);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgba(137, 43, 226, 0.449);
+    max-width: 400px; 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container p{
+    font-size: small;
+    padding: 5px;
+}
